@@ -33,7 +33,7 @@ import com.bitants.wally.models.filters.FilterTimeSpanKeys;
  */
 public class SharedPreferencesDataProvider {
 
-    public static final String SHARED_PREF_KEY = "com.musenkishi.wally.sharedpreferences";
+    public static final String SHARED_PREF_KEY = "com.bitants.wally.sharedpreferences";
 
     public static final String FILTER_KEY = ".filterKey";
     public static final String FILTER_VALUE = ".filterValue";

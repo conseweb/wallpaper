@@ -19,7 +19,7 @@ package com.bitants.wally.models;
 import android.net.Uri;
 import android.os.Parcelable;
 
-import com.musenkishi.wally.models.AutoParcel_Image;
+//import com.bitants.wally.models.AutoParcel_Image;
 
 import auto.parcel.AutoParcel;
 
@@ -30,7 +30,7 @@ import auto.parcel.AutoParcel;
 @AutoParcel
 public abstract class Image implements Parcelable {
 
-    public static final String TAG = "com.musenkishi.wally.model.image.tag";
+    public static final String TAG = "com.bitants.wally.model.image.tag";
 
     public abstract String imageId();
     public abstract String thumbURL();

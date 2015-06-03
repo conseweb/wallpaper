@@ -18,7 +18,7 @@ package com.bitants.wally.models;
 
 import android.os.Parcelable;
 
-import com.musenkishi.wally.models.AutoParcel_Tag;
+//import com.musenkishi.wally.models.AutoParcel_Tag;
 
 import auto.parcel.AutoParcel;
 

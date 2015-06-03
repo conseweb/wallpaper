@@ -19,7 +19,7 @@ package com.bitants.wally.models;
 import android.net.Uri;
 import android.os.Parcelable;
 
-import com.musenkishi.wally.models.AutoParcel_Author;
+//import com.bitants.wally.models.AutoParcel_Author;
 
 import auto.parcel.AutoParcel;
 
