@@ -19,6 +19,10 @@
 -keep class android.support.v7.widget.ShareActionProvider { *; }
 -keep public class * extends android.app,backup.BackupAgent
 -keep public class org.jsoup.**
+-keep public class java.nio.file.*
+-keep public class org.codehaus.mojo.*
+-dontwarn android.view.accessibility.**
+-dontwarn android.support.v4.media.session.**
 -dontwarn com.squareup.okhttp.**
 -dontwarn com.squareup.okio.**
 -dontwarn okio.**

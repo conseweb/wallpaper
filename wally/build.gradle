@@ -34,7 +34,9 @@ repositories {
 android {
     lintOptions {
         checkReleaseBuilds false
+        abortOnError false
     }
+    
     /**
      * directories that gradle will ignore when looking for changes
      */
