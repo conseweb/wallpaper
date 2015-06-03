@@ -51,7 +51,7 @@ android {
         exclude 'META-INF/LGPL2.1'
     }
     compileSdkVersion 21
-    buildToolsVersion '21.1.2'
+    buildToolsVersion '21.1.1'
     def Properties versionProps = new Properties()
     versionProps.load(new FileInputStream(file('version.properties')))
     defaultConfig {
@@ -66,21 +66,21 @@ android {
      */
     signingConfigs {
         release {
-            def Properties localProps = new Properties()
-            localProps.load(new FileInputStream(file('../../local.properties')))
-            def Properties keyProps = new Properties()
-            assert localProps['keystore.props.file'];
-            keyProps.load(new FileInputStream(file(localProps['keystore.props.file'])))
-            storeFile file(keyProps["store"])
-            keyAlias keyProps["alias"]
-            storePassword keyProps["storePass"]
-            keyPassword keyProps["pass"]
+//            def Properties localProps = new Properties()
+//            localProps.load(new FileInputStream(file('../local.properties')))
+//            def Properties keyProps = new Properties()
+//            assert localProps['keystore.props.file'];
+//            keyProps.load(new FileInputStream(file(localProps['keystore.props.file'])))
+//            storeFile file(keyProps["store"])
+//            keyAlias keyProps["alias"]
+//            storePassword keyProps["storePass"]
+//            keyPassword keyProps["pass"]
         }
         debug {
-            keyAlias 'musenkishi'
-            keyPassword 'wallydebug'
-            storeFile file('../wally_debug_keystore.jks')
-            storePassword 'wallydebug'
+//            keyAlias 'musenkishi'
+//            keyPassword 'wallydebug'
+//            storeFile file('../wally_debug_keystore.jks')
+//            storePassword 'wallydebug'
         }
     }
     buildTypes {

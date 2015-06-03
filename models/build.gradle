@@ -19,13 +19,18 @@ apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion '21.1.2'
+    buildToolsVersion '21.1.1'
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 20
         versionCode 1
         versionName '1.0'
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
     buildTypes {
         release {
             minifyEnabled false
