@@ -50,7 +50,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 
 import net.margaritov.preference.colorpicker.drawable.AlphaPatternDrawable;
 

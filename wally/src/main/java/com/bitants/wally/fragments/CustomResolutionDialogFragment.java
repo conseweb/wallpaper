@@ -24,8 +24,8 @@ import android.os.Message;
 import android.util.DisplayMetrics;
 import android.view.Display;
 
-import com.musenkishi.wally.R;
-import com.musenkishi.wally.models.Size;
+import com.bitants.wally.R;
+import com.bitants.wally.models.Size;
 import com.wrapp.floatlabelededittext.FloatLabeledEditText;
 
 import java.lang.reflect.InvocationTargetException;

@@ -30,17 +30,17 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 import com.bitants.wally.base.WallyApplication;
-import com.musenkishi.wally.models.Filter;
-import com.musenkishi.wally.models.ListFilterGroup;
-import com.musenkishi.wally.models.Size;
-import com.musenkishi.wally.models.filters.FilterAspectRatioKeys;
-import com.musenkishi.wally.models.filters.FilterBoards;
-import com.musenkishi.wally.models.filters.FilterBoardsKeys;
-import com.musenkishi.wally.models.filters.FilterPurity;
-import com.musenkishi.wally.models.filters.FilterPurityKeys;
-import com.musenkishi.wally.models.filters.FilterResolutionKeys;
+import com.bitants.wally.models.Filter;
+import com.bitants.wally.models.ListFilterGroup;
+import com.bitants.wally.models.Size;
+import com.bitants.wally.models.filters.FilterAspectRatioKeys;
+import com.bitants.wally.models.filters.FilterBoards;
+import com.bitants.wally.models.filters.FilterBoardsKeys;
+import com.bitants.wally.models.filters.FilterPurity;
+import com.bitants.wally.models.filters.FilterPurityKeys;
+import com.bitants.wally.models.filters.FilterResolutionKeys;
 
 /**
  * DialogFragment responsible for showing applicable filters to the user.

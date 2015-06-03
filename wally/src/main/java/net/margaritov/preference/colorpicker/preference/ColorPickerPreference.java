@@ -10,7 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 
 import net.margaritov.preference.colorpicker.view.ColorPanelView;
 import net.margaritov.preference.colorpicker.view.ColorPickerView;

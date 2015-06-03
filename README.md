@@ -40,7 +40,7 @@ Thanks
 
 Author
 ------
-Freddie Lust-Hed - @musenkishi
+Freddie Lust-Hed - @bitants
 
 Disclaimer
 ---------

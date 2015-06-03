@@ -26,9 +26,9 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.TextView;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 import com.bitants.wally.adapters.RecyclerImagesAdapter;
-import com.musenkishi.wally.dataprovider.models.DataProviderError;
+import com.bitants.wally.dataprovider.models.DataProviderError;
 import com.bitants.wally.util.TextLinkBuilder;
 import com.bitants.wally.views.AutoGridView;
 

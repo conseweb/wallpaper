@@ -42,7 +42,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 
 /**
  * The SwipeRefreshLayout should be used whenever the user can refresh the

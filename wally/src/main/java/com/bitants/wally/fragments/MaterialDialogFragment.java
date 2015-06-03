@@ -32,7 +32,7 @@ import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 
 /**
  * A dialog matching the Material Design specified in the preview documents.

@@ -28,7 +28,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 import com.bitants.wally.adapters.SmartFragmentPagerAdapter;
 import com.bitants.wally.base.BaseActivity;
 import com.bitants.wally.base.BaseFragment;

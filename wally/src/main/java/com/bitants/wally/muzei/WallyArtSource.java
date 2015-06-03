@@ -22,9 +22,9 @@ import android.util.Log;
 import com.google.android.apps.muzei.api.Artwork;
 import com.google.android.apps.muzei.api.RemoteMuzeiArtSource;
 import com.bitants.wally.base.WallyApplication;
-import com.musenkishi.wally.dataprovider.NetworkDataProvider;
-import com.musenkishi.wally.models.Image;
-import com.musenkishi.wally.models.ImagePage;
+import com.bitants.wally.dataprovider.NetworkDataProvider;
+import com.bitants.wally.models.Image;
+import com.bitants.wally.models.ImagePage;
 
 import java.util.ArrayList;
 import java.util.Random;

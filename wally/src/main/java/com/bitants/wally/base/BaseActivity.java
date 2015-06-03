@@ -49,9 +49,9 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.musenkishi.wally.BuildConfig;
-import com.musenkishi.wally.R;
-import com.musenkishi.wally.dataprovider.SharedPreferencesDataProvider;
+import com.bitants.wally.BuildConfig;
+import com.bitants.wally.R;
+import com.bitants.wally.dataprovider.SharedPreferencesDataProvider;
 import com.bitants.wally.fragments.MaterialDialogFragment;
 import com.bitants.wally.util.TypefaceSpan;
 

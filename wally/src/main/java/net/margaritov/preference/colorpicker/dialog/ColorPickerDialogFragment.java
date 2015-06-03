@@ -28,7 +28,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 
 import net.margaritov.preference.colorpicker.view.ColorPanelView;
 import net.margaritov.preference.colorpicker.view.ColorPickerView;

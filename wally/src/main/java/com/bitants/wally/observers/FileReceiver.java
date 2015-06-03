@@ -25,7 +25,7 @@ import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
 
-import com.musenkishi.wally.dataprovider.FileManager;
+import com.bitants.wally.dataprovider.FileManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 import com.bitants.wally.util.SparseBooleanArrayParcelable;
 
 import java.util.ArrayList;

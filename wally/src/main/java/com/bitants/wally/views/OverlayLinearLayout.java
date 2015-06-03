@@ -25,7 +25,7 @@ import android.os.Build;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 
 import static android.os.Build.VERSION_CODES.LOLLIPOP;
 

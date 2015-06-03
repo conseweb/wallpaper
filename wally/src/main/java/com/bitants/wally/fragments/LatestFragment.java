@@ -40,18 +40,18 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.bumptech.glide.load.resource.bitmap.GlideBitmapDrawable;
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 import com.bitants.wally.activities.ImageDetailsActivity;
 import com.bitants.wally.activities.MainActivity;
 import com.bitants.wally.adapters.RecyclerImagesAdapter;
 import com.bitants.wally.base.GridFragment;
 import com.bitants.wally.base.WallyApplication;
-import com.musenkishi.wally.dataprovider.DataProvider;
-import com.musenkishi.wally.dataprovider.NetworkDataProvider;
-import com.musenkishi.wally.dataprovider.models.DataProviderError;
-import com.musenkishi.wally.dataprovider.models.SaveImageRequest;
-import com.musenkishi.wally.models.Image;
-import com.musenkishi.wally.models.ImagePage;
+import com.bitants.wally.dataprovider.DataProvider;
+import com.bitants.wally.dataprovider.NetworkDataProvider;
+import com.bitants.wally.dataprovider.models.DataProviderError;
+import com.bitants.wally.dataprovider.models.SaveImageRequest;
+import com.bitants.wally.models.Image;
+import com.bitants.wally.models.ImagePage;
 import com.bitants.wally.notification.NotificationProvider;
 import com.bitants.wally.observers.FileReceiver;
 import com.bitants.wally.observers.FiltersChangeReceiver;
@@ -70,7 +70,7 @@ import static com.bitants.wally.observers.FiltersChangeReceiver.OnFiltersChangeL
  */
 public class LatestFragment extends GridFragment implements RecyclerImagesAdapter.OnSaveButtonClickedListener, Handler.Callback, OnFileChangeListener, OnFiltersChangeListener {
 
-    public static final String TAG = "com.musenkishi.wally.ImagesFragment";
+    public static final String TAG = "com.bitants.wally.ImagesFragment";
 
     private static final int MSG_GET_IMAGES = 119;
     private static final int MSG_ERROR_IMAGE_REQUEST = 121;

@@ -38,9 +38,9 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.musenkishi.paletteloader.PaletteLoader;
 import com.musenkishi.paletteloader.PaletteRequest;
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 import com.bitants.wally.base.WallyApplication;
-import com.musenkishi.wally.models.Image;
+import com.bitants.wally.models.Image;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -37,8 +37,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.musenkishi.wally.BuildConfig;
-import com.musenkishi.wally.R;
+import com.bitants.wally.BuildConfig;
+import com.bitants.wally.R;
 import com.bitants.wally.activities.MainActivity;
 import com.bitants.wally.adapters.RecyclerSavedImagesAdapter;
 import com.bitants.wally.base.GridFragment;
@@ -56,7 +56,7 @@ import de.psdev.licensesdialog.LicensesDialogFragment;
  */
 public class SavedImagesFragment extends GridFragment implements Handler.Callback, ActionMode.Callback {
 
-    public static final String TAG = "com.musenkishi.wally.SavedImagesFragment";
+    public static final String TAG = "com.bitants.wally.SavedImagesFragment";
     private static final String STATE_SELECTED_ITEMS = TAG + ".state.selectedItems";
     private static final int GET_IMAGES_FROM_STORAGE = 357;
     private static final int SET_IMAGES_TO_ADAPTER = 358;

@@ -58,20 +58,20 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.musenkishi.paletteloader.PaletteLoader;
 import com.musenkishi.paletteloader.PaletteRequest;
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 import com.bitants.wally.anim.interpolator.EaseInOutBezierInterpolator;
 import com.bitants.wally.base.BaseActivity;
 import com.bitants.wally.base.WallyApplication;
-import com.musenkishi.wally.dataprovider.DataProvider;
-import com.musenkishi.wally.dataprovider.FileManager;
-import com.musenkishi.wally.dataprovider.models.DataProviderError;
-import com.musenkishi.wally.dataprovider.models.SaveImageRequest;
+import com.bitants.wally.dataprovider.DataProvider;
+import com.bitants.wally.dataprovider.FileManager;
+import com.bitants.wally.dataprovider.models.DataProviderError;
+import com.bitants.wally.dataprovider.models.SaveImageRequest;
 import com.bitants.wally.fragments.SearchFragment;
-import com.musenkishi.wally.models.Author;
-import com.musenkishi.wally.models.Image;
-import com.musenkishi.wally.models.ImagePage;
-import com.musenkishi.wally.models.Size;
-import com.musenkishi.wally.models.Tag;
+import com.bitants.wally.models.Author;
+import com.bitants.wally.models.Image;
+import com.bitants.wally.models.ImagePage;
+import com.bitants.wally.models.Size;
+import com.bitants.wally.models.Tag;
 import com.bitants.wally.observers.FileReceiver;
 import com.bitants.wally.util.Blur;
 import com.bitants.wally.views.FlowLayout;
@@ -99,7 +99,7 @@ public class ImageDetailsActivity extends BaseActivity implements Handler.Callba
     private static final int MSG_SCROLL_UP_SCROLLVIEW = 987489;
 
 
-    public static final String TAG = "com.musenkishi.wally.ImageDetailsActivity";
+    public static final String TAG = "com.bitants.wally.ImageDetailsActivity";
     private static final String STATE_IMAGE_PAGE = "ImageDetailsActivity.ImagePage";
 
     public static final String INTENT_EXTRA_IMAGE = TAG + ".Intent.Image";

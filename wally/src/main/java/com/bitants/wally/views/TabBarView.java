@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 
 /**
  * Created by Freddie (Musenkishi) Lust-Hed on 2014-05-26.

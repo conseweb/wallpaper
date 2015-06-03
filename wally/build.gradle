@@ -32,7 +32,7 @@ repositories {
 
 
 android {
-    lintOptions{
+    lintOptions {
         checkReleaseBuilds false
     }
     /**
@@ -55,32 +55,34 @@ android {
     def Properties versionProps = new Properties()
     versionProps.load(new FileInputStream(file('version.properties')))
     defaultConfig {
+        applicationId "com.bitants.wally"
         minSdkVersion 15
         targetSdkVersion 21
         versionName versionProps['name']
         versionCode versionProps['code'].toInteger()
     }
+
     /**
     Look at Roman Nurik's build.gradle. Lots of good stuff there regarding builds:
     https://github.com/romannurik/muzei/blob/master/main/build.gradle
      */
     signingConfigs {
         release {
-//            def Properties localProps = new Properties()
-//            localProps.load(new FileInputStream(file('../local.properties')))
-//            def Properties keyProps = new Properties()
-//            assert localProps['keystore.props.file'];
-//            keyProps.load(new FileInputStream(file(localProps['keystore.props.file'])))
-//            storeFile file(keyProps["store"])
-//            keyAlias keyProps["alias"]
-//            storePassword keyProps["storePass"]
-//            keyPassword keyProps["pass"]
+            def Properties localProps = new Properties()
+            localProps.load(new FileInputStream(file('../local.properties')))
+            def Properties keyProps = new Properties()
+            assert localProps['keystore.props.file'];
+            keyProps.load(new FileInputStream(file(localProps['keystore.props.file'])))
+            storeFile file(keyProps["keystore"])
+            keyAlias keyProps["keyAlias"]
+            storePassword keyProps["keystore.password"]
+            keyPassword keyProps["keyPassword"]
         }
         debug {
-//            keyAlias 'musenkishi'
-//            keyPassword 'wallydebug'
-//            storeFile file('../wally_debug_keystore.jks')
-//            storePassword 'wallydebug'
+            keyAlias 'mojingwall'
+            keyPassword 'wallydebug'
+            storeFile file('../wally_debug_keystore.jks')
+            storePassword 'wallydebug'
         }
     }
     buildTypes {
@@ -89,20 +91,20 @@ android {
             proguardFiles 'proguard-project.txt'
             signingConfig signingConfigs.release
         }
-        publicBeta.initWith(buildTypes.release)
-        publicBeta {
-            zipAlignEnabled true
-            minifyEnabled true
-            proguardFiles 'proguard-project.txt'
-            versionNameSuffix " " + versionProps['betaNumber']
-        }
-        publicAlpha.initWith(buildTypes.release)
-        publicAlpha {
-            zipAlignEnabled true
-            minifyEnabled true
-            proguardFiles 'proguard-project.txt'
-            versionNameSuffix " " + versionProps['alphaNumber']
-        }
+//        publicBeta.initWith(buildTypes.release)
+//        publicBeta {
+//            zipAlignEnabled true
+//            minifyEnabled true
+//            proguardFiles 'proguard-project.txt'
+//            versionNameSuffix " " + versionProps['betaNumber']
+//        }
+//        publicAlpha.initWith(buildTypes.release)
+//        publicAlpha {
+//            zipAlignEnabled true
+//            minifyEnabled true
+//            proguardFiles 'proguard-project.txt'
+//            versionNameSuffix " " + versionProps['alphaNumber']
+//        }
         debug {
             debuggable true
             minifyEnabled false

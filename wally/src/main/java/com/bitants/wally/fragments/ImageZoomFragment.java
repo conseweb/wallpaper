@@ -40,7 +40,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 import com.bitants.wally.anim.interpolator.LinearOutSlowInInterpolator;
 import com.bitants.wally.observers.FileReceiver;
 

@@ -25,8 +25,8 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Build;
 
-import com.musenkishi.wally.R;
-import com.musenkishi.wally.models.SavedImageData;
+import com.bitants.wally.R;
+import com.bitants.wally.models.SavedImageData;
 
 /**
  * A class for managing all notifications in the app.

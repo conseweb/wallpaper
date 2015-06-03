@@ -26,7 +26,7 @@
   public static final android.os.Parcelable$Creator *;
   static ** CREATOR;
 }
--keep class com.musenkishi.wally.models.** {
+-keep class com.bitants.wally.models.** {
   public protected private *;
 }
 -keep public class com.bumptech.glide.**
