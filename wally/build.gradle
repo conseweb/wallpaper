@@ -36,7 +36,7 @@ android {
         checkReleaseBuilds false
         abortOnError false
     }
-    
+
     /**
      * directories that gradle will ignore when looking for changes
      */
@@ -93,20 +93,20 @@ android {
             proguardFiles 'proguard-project.txt'
             signingConfig signingConfigs.release
         }
-//        publicBeta.initWith(buildTypes.release)
-//        publicBeta {
-//            zipAlignEnabled true
-//            minifyEnabled true
-//            proguardFiles 'proguard-project.txt'
-//            versionNameSuffix " " + versionProps['betaNumber']
-//        }
-//        publicAlpha.initWith(buildTypes.release)
-//        publicAlpha {
-//            zipAlignEnabled true
-//            minifyEnabled true
-//            proguardFiles 'proguard-project.txt'
-//            versionNameSuffix " " + versionProps['alphaNumber']
-//        }
+        publicBeta.initWith(buildTypes.release)
+        publicBeta {
+            zipAlignEnabled true
+            minifyEnabled true
+            proguardFiles 'proguard-project.txt'
+            versionNameSuffix " " + versionProps['betaNumber']
+        }
+        publicAlpha.initWith(buildTypes.release)
+        publicAlpha {
+            zipAlignEnabled true
+            minifyEnabled true
+            proguardFiles 'proguard-project.txt'
+            versionNameSuffix " " + versionProps['alphaNumber']
+        }
         debug {
             debuggable true
             minifyEnabled false
