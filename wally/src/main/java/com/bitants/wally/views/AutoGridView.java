@@ -21,7 +21,7 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 
-import com.musenkishi.wally.R;
+import com.bitants.wally.R;
 
 /**
  * A Custom GridView where you can set the default width of a cell
