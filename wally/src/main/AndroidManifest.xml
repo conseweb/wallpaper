@@ -16,7 +16,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.musenkishi.wally">
+    package="com.bitants.wally">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -66,7 +66,7 @@
                 <action android:name="com.google.android.apps.muzei.api.MuzeiArtSource" />
             </intent-filter>
             <!--<meta-data android:name="settingsActivity"-->
-                       <!--android:value="com.musenkishi.wally.activities.MainActivity" />-->
+                       <!--android:value="com.bitants.wally.activities.MainActivity" />-->
             <meta-data android:name="color" android:value="@color/Actionbar.TopList.Background" />
         </service>
 

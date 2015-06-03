@@ -16,7 +16,7 @@
   ~ limitations under the License.
   -->
 
-<com.musenkishi.wally.views.TabBarView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.bitants.wally.views.TabBarView xmlns:android="http://schemas.android.com/apk/res/android"
                                        xmlns:wally="http://schemas.android.com/apk/res-auto"
                                        android:layout_width="wrap_content"
                                        android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
                                        wally:tabBarColor="@color/Grey.Light"
                                        wally:tabBarSize="2dp">
 
-    <com.musenkishi.wally.views.TabView
+    <com.bitants.wally.views.TabView
             android:id="@+id/tab_toplist"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -37,7 +37,7 @@
             wally:text="@string/title_section_toplist"
             />
 
-    <com.musenkishi.wally.views.TabView
+    <com.bitants.wally.views.TabView
         android:id="@+id/tab_latest"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -48,7 +48,7 @@
         wally:text="@string/title_section_latest"
         />
 
-    <com.musenkishi.wally.views.TabView
+    <com.bitants.wally.views.TabView
             android:id="@+id/tab_search"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -59,7 +59,7 @@
             wally:text="@string/title_section_search"
             />
 
-    <com.musenkishi.wally.views.TabView
+    <com.bitants.wally.views.TabView
             android:id="@+id/tab_random"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -70,7 +70,7 @@
             wally:text="@string/title_section_random"
             />
 
-    <com.musenkishi.wally.views.TabView
+    <com.bitants.wally.views.TabView
             android:id="@+id/tab_saved"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -81,4 +81,4 @@
             wally:text="@string/title_section_saved"
             />
 
-</com.musenkishi.wally.views.TabBarView>
+</com.bitants.wally.views.TabBarView>

@@ -17,11 +17,11 @@
 <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
                 xmlns:custom="http://schemas.android.com/apk/res-auto"
                 xmlns:android="http://schemas.android.com/apk/res/android"
-                tools:context="com.musenkishi.wally.activities.MainActivity.ImagesFragment"
+                tools:context="com.bitants.wally.activities.MainActivity.ImagesFragment"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent">
 
-    <com.musenkishi.wally.views.swipeclearlayout.SwipeClearLayout
+    <com.bitants.wally.views.swipeclearlayout.SwipeClearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/swipe_container"
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
 
         <include layout="@layout/autogridview" />
 
-    </com.musenkishi.wally.views.swipeclearlayout.SwipeClearLayout>
+    </com.bitants.wally.views.swipeclearlayout.SwipeClearLayout>
 
     <include
         android:id="@+id/error_layout"
